@@ -84,7 +84,7 @@ public class MyActivity extends Activity {
                 }
                 TextView textView = (TextView)convertView.findViewById(android.R.id.text1);
                 Date date = new Date(list.get(position));
-                String str = date.getYear()+"年"+(date.getMonth()+1)+"月"+date.getDate()+"日";
+                String str = (1900+date.getYear())+"年"+(date.getMonth()+1)+"月"+date.getDate()+"日";
                 str = str + " " + date.getHours()+"点"+date.getMinutes()+"分";
                 textView.setText(str);
                 return convertView;
