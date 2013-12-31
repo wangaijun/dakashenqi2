@@ -8,7 +8,7 @@
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="打卡神器"
+            android:text="打卡"
             android:id="@+id/button"/>
     <ListView
             android:layout_width="fill_parent"

@@ -115,8 +115,8 @@ public class MyService extends Service {
                         play();
                     }
                 }
-                else if(date.getDay()==2||date.getDay()==3||date.getDay()==5 && !yiDaXiaBanKaMa()){
-                    if(date.getHours()>=17 && date.getMinutes()>=30){
+                else if(date.getDay()==2||date.getDay()==3||date.getDay()==5 ){
+                    if(date.getHours()>=17 && date.getMinutes()>=30 && !yiDaXiaBanKaMa()){
                         play();
                     }
                 }
@@ -126,8 +126,8 @@ public class MyService extends Service {
                         play();
                     }
                 }
-                else if(date.getDay()==1||date.getDay()==3||date.getDay()==4 && !yiDaShangBanKaMa()){
-                    if(date.getHours()>=8 && date.getMinutes()>=10){
+                else if(date.getDay()==1||date.getDay()==3||date.getDay()==4){
+                    if(date.getHours()>=8 && date.getMinutes()>=10  && !yiDaShangBanKaMa()){
                         play();
                     }
                 }

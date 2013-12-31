@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context) {
-        super(context, "DaKaShenQi2.db", null, 1);
+        super(context, "DaKaShenQi3.db", null, 1);
     }
 
     @Override
