@@ -17,17 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ff4ab3-072a-4124-a599-5366fbae738e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/Record.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="打卡神器.iws" />
@@ -83,7 +72,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="137" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -145,7 +134,7 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="179" selection-end="191" vertical-scroll-proportion="-2.88" vertical-offset="0" max-vertical-offset="576">
+            <state line="3" column="34" selection-start="179" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -154,7 +143,7 @@
       <file leaf-file-name="menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="264">
+            <state line="4" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="264">
               <folding />
             </state>
           </provider>
@@ -163,7 +152,7 @@
       <file leaf-file-name="DBHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="696">
+            <state line="11" column="35" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="744">
               <folding />
             </state>
           </provider>
@@ -172,7 +161,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="45" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.36241612" vertical-offset="1632" max-vertical-offset="4920">
+            <state line="80" column="45" selection-start="2615" selection-end="2615" vertical-scroll-proportion="-3.9230769" vertical-offset="4296" max-vertical-offset="4920">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4654#4660#0" expanded="true" />
@@ -188,7 +177,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-9.096154" vertical-offset="127" max-vertical-offset="792">
+            <state line="25" column="41" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -197,7 +186,7 @@
       <file leaf-file-name="Record.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/Record.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+            <state line="12" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
@@ -206,7 +195,7 @@
       <file leaf-file-name="MyReceiver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="10" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
@@ -215,7 +204,7 @@
       <file leaf-file-name="MyService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="53" selection-start="3647" selection-end="3653" vertical-scroll-proportion="0.0" vertical-offset="2136" max-vertical-offset="3648">
+            <state line="117" column="53" selection-start="3647" selection-end="3653" vertical-scroll-proportion="0.0" vertical-offset="2808" max-vertical-offset="3840">
               <folding />
             </state>
           </provider>
@@ -233,7 +222,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="75" selection-start="399" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+            <state line="7" column="75" selection-start="399" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="744">
               <folding />
             </state>
           </provider>
@@ -606,7 +595,11 @@
       <created>1388120535525</created>
       <updated>1388120535525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12月27日">
+      <created>1388480657554</created>
+      <updated>1388480657554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -636,7 +629,6 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6938776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -644,7 +636,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8425656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841823" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -654,8 +645,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1050,7 +1043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="-3.84" vertical-offset="0" max-vertical-offset="264">
+        <state line="4" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="264">
           <folding />
         </state>
       </provider>
@@ -1060,7 +1053,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="179" selection-end="191" vertical-scroll-proportion="-2.88" vertical-offset="0" max-vertical-offset="576">
+        <state line="3" column="34" selection-start="179" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="576">
           <folding />
         </state>
       </provider>
@@ -1084,7 +1077,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="1148" selection-end="1148" vertical-scroll-proportion="-9.096154" vertical-offset="127" max-vertical-offset="792">
+        <state line="25" column="41" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
@@ -1098,7 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="45" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.36241612" vertical-offset="1632" max-vertical-offset="4920">
+        <state line="80" column="45" selection-start="2615" selection-end="2615" vertical-scroll-proportion="-3.9230769" vertical-offset="4296" max-vertical-offset="4920">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4654#4660#0" expanded="true" />
