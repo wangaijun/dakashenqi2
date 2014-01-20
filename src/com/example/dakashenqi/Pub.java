@@ -23,11 +23,15 @@ public class Pub {
         return map.get(day);
     }
     public static String getDate(Date date){
-        String d = (1900+date.getYear())+"年"+formateNum(date.getMonth()+1)+"月"+formateNum(date.getDate())+"日";
+        String d = (1900+date.getYear())+"年"+formateNum(date.getMonth() + 1)+"月"+formateNum(date.getDate())+"日";
         return d;
     }
     public static String getTime(Date date){
         String t = formateNum(date.getHours())+"点"+formateNum(date.getMinutes())+"分";
+        return t;
+    }
+    public static String getTime(int hour,int minute){
+        String t = formateNum(hour)+"点"+formateNum(minute)+"分";
         return t;
     }
 

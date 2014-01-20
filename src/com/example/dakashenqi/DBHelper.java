@@ -15,13 +15,23 @@ import java.io.FileOutputStream;
  */
 public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context) {
-        super(context, "DaKaShenQi4.db", null, 1);
+        super(context, "DaKaShenQi5.db", null, 1);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         String createTable = "create table daKaJiLu (daKaShiJian INTEGER)";
+        String createSetting = "create table setting (day integer,shangBanHour integer," +
+                "shangBanMinute integer,xiaBanHour integer,xiaBanMinute integer," +
+                " enable integer);";
         db.execSQL(createTable);
+        db.execSQL(createSetting);
+
+        for(int i=0;i<7;i++){
+            String insert = "insert into setting (day,shangBanHour,shangBanMinute," +
+                    "xiaBanHour,xiaBanMinute,enable) values (?,?,?,?,?,?);";
+            db.execSQL(insert,new Object[]{i,9,0,18,0,1});
+        }
     }
 
     @Override

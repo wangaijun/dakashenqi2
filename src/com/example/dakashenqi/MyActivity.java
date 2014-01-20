@@ -25,6 +25,7 @@ public class MyActivity extends Activity {
     Button button;
     ListView listView;
     List<Record> list;
+    Button buttonSet;
 
     DBHelper dbHelper;
     SQLiteDatabase sqLiteDatabase;
@@ -38,6 +39,7 @@ public class MyActivity extends Activity {
 
         button = (Button)findViewById(R.id.button);
         listView = (ListView)findViewById(R.id.listView);
+        buttonSet = (Button)findViewById(R.id.button2);
 
         bindListView();
 
@@ -45,11 +47,19 @@ public class MyActivity extends Activity {
             @Override
             public void onClick(View v) {
                 String insert = "insert into daKaJiLu (daKaShiJian) values (?)";
-                sqLiteDatabase.execSQL(insert,new Object[]{System.currentTimeMillis()});
+                sqLiteDatabase.execSQL(insert, new Object[]{System.currentTimeMillis()});
                 bindListView();
-                Intent intent = new Intent(MyActivity.this,MyService.class);
-                intent.putExtra("caoZuo","daKa");
+                Intent intent = new Intent(MyActivity.this, MyService.class);
+                intent.putExtra("caoZuo", "daKa");
                 startService(intent);
+            }
+        });
+
+        buttonSet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyActivity.this,SecondActivity.class);
+                startActivity(intent);
             }
         });
 

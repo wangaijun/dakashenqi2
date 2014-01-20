@@ -14,11 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ff4ab3-072a-4124-a599-5366fbae738e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/Setting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/second.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/second_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/Record.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/Record.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="打卡神器.iws" />
@@ -75,7 +79,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="140" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="150" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -90,7 +94,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="164" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="174" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -105,7 +109,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" line="77" class="com.example.dakashenqi.MyActivity" package="com.example.dakashenqi">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" line="43" class="com.example.dakashenqi.DBHelper" package="com.example.dakashenqi">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -120,7 +124,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" line="33" class="com.example.dakashenqi.DBHelper" package="com.example.dakashenqi">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java" line="140" class="com.example.dakashenqi.SecondActivity" package="com.example.dakashenqi">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -148,28 +152,92 @@
       <file leaf-file-name="DBHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="64" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1064">
+            <state line="32" column="58" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_item.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list_item.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="70" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.68429005" vertical-offset="98" max-vertical-offset="760">
+            <state line="33" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-9.9811325" vertical-offset="98" max-vertical-offset="760">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="51" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="3591">
+            <state line="87" column="0" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.9775449" vertical-offset="582" max-vertical-offset="3781">
+              <folding>
+                <element signature="e#1801#2041#0" expanded="true" />
+                <element signature="e#2030#2031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="19" selection-start="1374" selection-end="1374" vertical-scroll-proportion="-2.3448277" vertical-offset="768" max-vertical-offset="2983">
+              <folding>
+                <element signature="e#2339#2827#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#3335#4056#0" expanded="true" />
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4869#5583#0" expanded="true" />
+                <element signature="e#5548#5549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setting.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/Setting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="15" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="44" selection-start="868" selection-end="868" vertical-scroll-proportion="-7.5283017" vertical-offset="0" max-vertical-offset="703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="second.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/second.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="397" selection-end="397" vertical-scroll-proportion="-3.9433963" vertical-offset="0" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="second_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/second_list_item.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="44" selection-start="1892" selection-end="1892" vertical-scroll-proportion="-5.943396" vertical-offset="521" max-vertical-offset="1197">
               <folding />
             </state>
           </provider>
@@ -178,7 +246,7 @@
       <file leaf-file-name="Pub.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="80" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="969">
+            <state line="34" column="17" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1045">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,15 +278,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/example/dakashenqi/MyReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/menu/menu.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/dakashenqi/Recorde.java" />
-        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/dakashenqi/Record.java" />
-        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java" />
-        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/second.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/Setting.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java" />
+        <option value="$PROJECT_DIR$/res/layout/second_list_item.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java" />
       </list>
     </option>
   </component>
@@ -344,10 +416,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/dev/android-sdk-linux/docs/reference" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="137" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -572,7 +644,11 @@
       <created>1389692604304</created>
       <updated>1389692604304</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="优化了listview的显示&#10;">
+      <created>1390188062553</created>
+      <updated>1390188062553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -606,7 +682,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6935484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48655915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -618,7 +694,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25277779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18624642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -643,7 +719,8 @@
     <MESSAGE value="增加了数据库拷贝" />
     <MESSAGE value="增加了数据库拷贝&#10;" />
     <MESSAGE value="移除了数据库拷贝&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除了数据库拷贝&#10;" />
+    <MESSAGE value="优化了listview的显示&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化了listview的显示&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -653,34 +730,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="57" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="29" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="62" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2352">
@@ -715,7 +764,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="37" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2650">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +819,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="37" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2650">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,7 +874,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="67" selection-start="2574" selection-end="2574" vertical-scroll-proportion="0.0" vertical-offset="1975" max-vertical-offset="2075">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -850,7 +908,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="66" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="1975" max-vertical-offset="2475">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -881,7 +942,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="66" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="1975" max-vertical-offset="2075">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -912,7 +976,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="31" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2475">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,7 +1010,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="31" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2475">
-          <folding />
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -982,26 +1052,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="179" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="71" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="64" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1064">
           <folding />
         </state>
       </provider>
@@ -1013,29 +1066,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="-9.9811325" vertical-offset="98" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="868" selection-end="868" vertical-scroll-proportion="-7.5283017" vertical-offset="0" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/second.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="397" selection-end="397" vertical-scroll-proportion="-3.9433963" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="15" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="58" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/Pub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="80" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="969">
+        <state line="34" column="17" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1045">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="51" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="3591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/second_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="70" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.68429005" vertical-offset="98" max-vertical-offset="760">
+        <state line="44" column="44" selection-start="1892" selection-end="1892" vertical-scroll-proportion="-5.943396" vertical-offset="521" max-vertical-offset="1197">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.9775449" vertical-offset="582" max-vertical-offset="3781">
+          <folding>
+            <element signature="e#1801#2041#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="19" selection-start="1374" selection-end="1374" vertical-scroll-proportion="-2.3448277" vertical-offset="768" max-vertical-offset="2983">
+          <folding>
+            <element signature="e#2339#2827#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#3335#4056#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4869#5583#0" expanded="true" />
+            <element signature="e#5548#5549#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,7 +1193,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1096,6 +1210,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
