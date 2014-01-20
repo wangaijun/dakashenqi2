@@ -64,8 +64,9 @@ public class MyActivity extends Activity {
         while (cursor.moveToNext()){
             long time = cursor.getLong(cursor.getColumnIndex("daKaShiJian"));
             Date date = new Date(time);
-            String d = (1900+date.getYear())+"年"+(date.getMonth()+1)+"月"+date.getDate()+"日";
-            String t = date.getHours()+"点"+date.getMinutes()+"分";
+            String d = Pub.getDate(date);
+            String t = Pub.getTime(date);
+            String day = Pub.getDay(date.getDay());
 
             Record record=null;
             for(Record tmp : list){
@@ -78,7 +79,7 @@ public class MyActivity extends Activity {
                 record.time += "\n"+t;
             }
             else {
-                record = new Record(d,t);
+                record = new Record(d,t,day);
                 list.add(record);
             }
         }
@@ -112,8 +113,10 @@ public class MyActivity extends Activity {
                 }
                 TextView textView = (TextView)convertView.findViewById(R.id.textView);
                 TextView textView2 = (TextView)convertView.findViewById(R.id.textView2);
+                TextView textView3 = (TextView)convertView.findViewById(R.id.textView3);
                 textView.setText(list.get(position).date);
                 textView2.setText(list.get(position).time);
+                textView3.setText(list.get(position).day);
                 return convertView;
             }
         });
