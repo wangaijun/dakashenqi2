@@ -15,7 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ff4ab3-072a-4124-a599-5366fbae738e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/DBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java" afterPath="$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="打卡神器.iws" />
@@ -187,7 +186,7 @@
       <file leaf-file-name="SecondActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="19" selection-start="1374" selection-end="1374" vertical-scroll-proportion="-2.3448277" vertical-offset="768" max-vertical-offset="2983">
+            <state line="64" column="67" selection-start="2063" selection-end="2063" vertical-scroll-proportion="-8.896552" vertical-offset="768" max-vertical-offset="2983">
               <folding>
                 <element signature="e#2339#2827#0" expanded="true" />
                 <element signature="e#2808#2809#0" expanded="true" />
@@ -642,7 +641,11 @@
       <created>1390203876819</created>
       <updated>1390203876819</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加了设置界面&#10;">
+      <created>1390206986535</created>
+      <updated>1390206986536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -714,7 +717,8 @@
     <MESSAGE value="增加了数据库拷贝&#10;" />
     <MESSAGE value="移除了数据库拷贝&#10;" />
     <MESSAGE value="优化了listview的显示&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化了listview的显示&#10;" />
+    <MESSAGE value="添加了设置界面&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了设置界面&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1119,9 +1123,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0" vertical-offset="1796" max-vertical-offset="2945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/SecondActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="19" selection-start="1374" selection-end="1374" vertical-scroll-proportion="-2.3448277" vertical-offset="768" max-vertical-offset="2983">
+        <state line="64" column="67" selection-start="2063" selection-end="2063" vertical-scroll-proportion="-8.896552" vertical-offset="768" max-vertical-offset="2983">
           <folding>
             <element signature="e#2339#2827#0" expanded="true" />
             <element signature="e#2808#2809#0" expanded="true" />
@@ -1130,13 +1141,6 @@
             <element signature="e#4869#5583#0" expanded="true" />
             <element signature="e#5548#5549#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dakashenqi/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.0" vertical-offset="1796" max-vertical-offset="2945">
-          <folding />
         </state>
       </provider>
     </entry>
