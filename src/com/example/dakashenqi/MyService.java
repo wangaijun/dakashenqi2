@@ -3,6 +3,8 @@ package com.example.dakashenqi;
 import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 
@@ -17,6 +19,8 @@ public class MyService extends Service {
     SharedPreferences sharedPreferences;
     List<MediaPlayer> mediaPlayers;
     MyThread myThread;
+    DBHelper dbHelper;
+    SQLiteDatabase db;
 
     public Date getYiDaKaRiQi() {
         long yiDaKaRiQi = sharedPreferences.getLong("yiDaKaRiQi",0);
@@ -62,6 +66,9 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        dbHelper = new DBHelper(this);
+        db = dbHelper.getWritableDatabase();
+
         sharedPreferences = getSharedPreferences("daKaBiaoShi",MODE_PRIVATE);
         mediaPlayers = new Vector<MediaPlayer>();
         myThread = new MyThread();
@@ -92,6 +99,8 @@ public class MyService extends Service {
             mediaPlayer.release();
         }
         myThread.isLoop = false;
+
+        dbHelper.close();
         super.onDestroy();
     }
 
@@ -109,29 +118,25 @@ public class MyService extends Service {
                         kaiShiXinDeYiTian();
                     }
                 }
-                /*下班提醒*/
-                if(date.getDay()==1 || date.getDay()==4){
-                    if(date.getHours()>=20&&date.getMinutes()>=30 && !yiDaXiaBanKaMa()){
+                String select = "select * from setting where day=? and enable=?";
+                Cursor cursor = db.rawQuery(select, new String[]{date.getDay()+"","1"});
+                if(cursor.moveToFirst()){
+                    Setting setting = new Setting();
+                    setting.shangBanHour = cursor.getInt(cursor.getColumnIndex("shangBanHour"));
+                    setting.shangBanMinute = cursor.getInt(cursor.getColumnIndex("shangBanMinute"));
+                    setting.xiaBanHour = cursor.getInt(cursor.getColumnIndex("xiaBanHour"));
+                    setting.xiaBanMinute = cursor.getInt(cursor.getColumnIndex("xiaBanMinute"));
+                    if((date.getHours()>setting.shangBanHour ||
+                            date.getHours()==setting.shangBanHour&&date.getMinutes()>=setting.shangBanMinute) &&
+                            !yiDaShangBanKaMa()){
+                        play();
+                    }
+                    else if((date.getHours()>setting.xiaBanHour ||
+                            date.getHours()==setting.xiaBanHour&&date.getMinutes()>=setting.xiaBanMinute) &&
+                                    !yiDaXiaBanKaMa()){
                         play();
                     }
                 }
-                else if(date.getDay()==2||date.getDay()==3||date.getDay()==5 ){
-                    if(date.getHours()>=17 && date.getMinutes()>=30 && !yiDaXiaBanKaMa()){
-                        play();
-                    }
-                }
-                /*上班提醒*/
-                if(date.getDay()==2 || date.getDay()==5){
-                    if(date.getHours()>=12&&date.getMinutes()>=30 && !yiDaShangBanKaMa()){
-                        play();
-                    }
-                }
-                else if(date.getDay()==1||date.getDay()==3||date.getDay()==4){
-                    if(date.getHours()>=8 && date.getMinutes()>=10  && !yiDaShangBanKaMa()){
-                        play();
-                    }
-                }
-
                 mySleep(1000*60);
             }
         }

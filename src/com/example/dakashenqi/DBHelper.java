@@ -15,7 +15,7 @@ import java.io.FileOutputStream;
  */
 public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(Context context) {
-        super(context, "DaKaShenQi5.db", null, 1);
+        super(context, "DaKaShenQi6.db", null, 1);
     }
 
     @Override
@@ -30,7 +30,12 @@ public class DBHelper extends SQLiteOpenHelper {
         for(int i=0;i<7;i++){
             String insert = "insert into setting (day,shangBanHour,shangBanMinute," +
                     "xiaBanHour,xiaBanMinute,enable) values (?,?,?,?,?,?);";
-            db.execSQL(insert,new Object[]{i,9,0,18,0,1});
+            if(i==0 || i==6){
+                db.execSQL(insert,new Object[]{i,8,45,18,05,0});
+            }
+            else{
+                db.execSQL(insert,new Object[]{i,9,0,18,0,1});
+            }
         }
     }
 
